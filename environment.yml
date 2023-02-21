@@ -1,0 +1,38 @@
+# Run `conda-env create -f environment.yml`
+name: pythoncourse
+
+dependencies:
+  - python=3.9
+  - pip
+  - cartopy
+  - dask
+  - descartes
+  - geopandas
+  - ipython
+  - ipywidgets
+  - jupyter
+  - mplleaflet
+  - jupyterlab
+  - jupytext
+  - nbconvert
+  - networkx
+  - palettable
+  - pysal
+  - qgrid
+  - rasterio
+  - scikit-learn
+  - seaborn
+  - statsmodels
+  - xlrd
+  - xlsxwriter
+  - pip:
+        - folium
+        - contextily
+        - geojson
+        - palettable
+        - libpysal
+        - esda
+        - mapclassify
+        - giddy
+        - region
+        - datashader
